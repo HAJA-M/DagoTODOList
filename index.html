@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do Liste</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>To-Do Liste</h1>
+        <div class="input-container">
+            <input type="text" id="new-task" placeholder="Ajouter une nouvelle tache">
+            <input type="datetime-local" id="deadline" placeholder="Ajouter une deadline">
+            <input type="number" id="timer" placeholder="Ajouter une durée (minutes)" min="1">
+            <button id="add-task-button">Ajouter une nouvelle tâche</button>
+        </div>
+        <ul id="task-list"></ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
